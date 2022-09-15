@@ -1,0 +1,462 @@
+/*termos Gerais*/
+
+body {
+    background: #dad9d9;
+    overflow-x: hidden;
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+}
+
+@font-face {
+    font-family: Praying Angel;
+    src: url("Praying Angel.ttf");
+}
+
+p,
+li {
+    color: #444;
+    font-size: 14px;
+}
+
+/*Barra de Navegação*/
+header,
+.navbar {
+    background: #FEC1B2;
+}
+
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo {
+    width: 75px;
+    padding-left: 5px;
+    padding-top: 0px;
+}
+
+.Login {
+    margin-left: 1px;
+    font-size: 20px;
+    margin-right: 10px;
+    color: rgb(53, 53, 53);
+    text-decoration: none;
+}
+
+
+.Login:hover {
+    color: #FFF;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem .8rem;
+}
+
+/*Slider*/
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+    color: #444;
+    margin: 100px 0 65px 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+.titulo::after {
+    content: "";
+    border-top: 2px solid #333;
+    width: 10%;
+    position: absolute;
+    top: 143px;
+    left: 45%;
+}
+
+.Sliders {
+    margin-top: 100px;
+}
+
+
+.botao {
+    font-size: 50px;
+    color: black;
+    opacity: 1;
+    margin-top: -70px;
+}
+
+.botao:hover {
+    color: #4ae0ee;
+}
+
+#mainSlider {
+    padding: 20px;
+}
+
+#mainSlider .carousel-inner {
+    height: 75vh;
+}
+
+
+#mainSlider .moldura-zero {
+    width: 50vw;
+    border: 8px inset #dfc177;
+    padding: 15px;
+    background: #cfcac3;
+}
+
+#mainSlider #img1 {
+    height: 60vh;
+}
+
+#mainSlider .moldura-um {
+    width: 50vw;
+    border: 8px inset #eba851;
+    padding: 15px;
+    background: #cfcac3;
+}
+
+#mainSlider #img2 {
+    width: 60vw;
+    height: 60vh;
+}
+
+#mainSlider .moldura-dois {
+    width: 52.8vw;
+    border: 8px inset #Af4f3B;
+    padding: 15px;
+    background: #cfcac3;
+}
+
+#mainSlider #img3 {
+    height: 60vh;
+    border: 1px solid #999;
+    background: #000;
+}
+
+#mainSlider h3 {
+    opacity: 0.5;
+}
+
+#mainSlider h3:hover {
+    opacity: 1;
+}
+
+#mainSLider .carousel-indicators {
+    padding-bottom: -100px;
+}
+
+/*Pintura e desenho*/
+.container-fluid .Acervo {
+    margin-top: -85px
+}
+
+#Acervos {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 46px;
+}
+
+#text-Pintura {
+    font-size: 40px;
+    font-family: Praying Angel;
+    color: #5687b0;
+    text-align: end;
+
+}
+
+.Acervo .row {
+    padding: 0;
+    margin: 0 0 2.5rem 0;
+}
+
+#Hearts-T:hover+#Hearts-D {
+    display: none;
+}
+
+#Hearts-D:hover+#Hearts-T {
+    display: none;
+}
+
+.Acervo .row a.col-md-2 {
+    padding: 0;
+    margin: 0;
+    display: inline;
+    text-decoration: none;
+    text-align: center;
+}
+
+#Hearts-T {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+#Hearts-D {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+.text-Desenho {
+    color: #Af4f3B;
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    text-align: center
+}
+
+/*Movimentos artísticos*/
+#About_MovArtistico img {
+    width: 233px;
+    height: 325px;
+    border: hidden;
+}
+
+.card-body {
+    width: 15.3vw;
+}
+
+#About_MovArtistico h4.card-title {
+    text-align: center;
+    margin: 5px 0 41px 0;
+}
+
+#About_MovArtistico .col-sm-12 {
+    text-align: center;
+}
+
+/*Rodapé*/
+
+h2.frase {
+    text-align: center;
+    margin: 15px 0 5px 0;
+    font-size: 48px;
+    font-family: 'Dancing Script', cursive;
+}
+
+footer {
+    height: 10vh;
+    margin: 0px;
+}
+
+footer .container-fluid {
+
+    background: #B0D0D3;
+}
+
+footer .container-fluid .row {
+    margin: 40px 0 0 0;
+}
+
+footer .container-fluid .row .Agradecimentos {
+    font-size: 17px;
+}
+
+footer .container-fluid .row span {
+    font-weight: bold;
+}
+
+footer .container-fluid .row .col-md-6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p.titulo-fim {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+    color: #444;
+    font-size: 42px;
+    text-align: center;
+}
+
+footer .container-fluid .row .col-md-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .container-fluid .row .email,
+footer .container-fluid .row .insta {
+    font-size: 54px;
+    border: solid 3px #212529;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+    text-align: center;
+    margin: 0 5px 0 0;
+}
+
+footer .container-fluid .row .whats {
+    font-size: 70px;
+    margin: 0 5px 0 0;
+    text-align: center;
+}
+
+/* Mesa Digitalizadora*/
+@media (max-width: 768px) {
+    .carousel-caption {
+        visibility: hidden;
+    }
+
+    #mainSlider .moldura-zero {
+        width: 67vw;
+        border: 8px inset #dfc177;
+        padding: 15px;
+        background: #cfcac3;
+    }
+
+    #mainSlider #img1 {
+        height: 55vh;
+    }
+
+    #mainSlider .moldura-um {
+        width: 67vw;
+        border: 8px inset #eba851;
+        padding: 15px;
+        background: #cfcac3;
+    }
+
+    #mainSlider #img2 {
+        height: 55vh;
+    }
+
+    #mainSlider .moldura-dois {
+        width: 67vw;
+        border: 4px inset #Af4f3B;
+        padding: 15px;
+        background: #cfcac3;
+    }
+
+    #mainSlider #img3 {
+        height: 58vh;
+        border: 2px solid #999;
+        background: #000;
+    }
+
+    #text-Pintura {
+        text-align: end;
+    }
+
+    .Acervo .row img {
+        align-items: center;
+    }
+
+    #Hearts-T,
+    a.col-sm-5 {
+        height: 80%;
+        margin: 0;
+        padding: 0;
+    }
+
+    #Hearts-D {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        height: 60%;
+    }
+
+    a.col-sm-5 {
+        text-align: center;
+        height: 62%;
+    }
+
+    .text-Desenho {
+        margin: 0;
+        padding: 0;
+        text-align: end;
+    }
+
+}
+
+@media (max-width: 767px) {
+    footer .container-fluid .row p.Agradecimentos {
+        margin: 0.2rem 0 0 0;
+        width: 85vw;
+        text-align: center;
+    }
+
+    #text-Pintura {
+        text-align: start;
+    }
+
+}
+
+/*L móvel*/
+@media (max-width: 425px) {
+
+    /*Sliders L móvel*/
+    body {
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .carousel-inner {
+        height: 0vh;
+    }
+
+    .carousel-indicators {
+        text-justify: start;
+    }
+
+    #mainSlider .moldura-zero {
+        width: 80vw;
+    }
+
+    #mainSlider #img1 {
+        height: 50vh;
+    }
+
+    #mainSlider .moldura-um {
+        width: 80vw;
+    }
+
+    #mainSlider #img2 {
+        width: 90vw;
+        height: 50vh;
+    }
+
+    #mainSlider .moldura-dois {
+        width: 80vw;
+    }
+
+    #mainSlider #img3 {
+        width: 100vw;
+        height: 39vh;
+    }
+    /*Acervo L móvel*/
+    #Hearts-T, #Hearts-D, a.col-sm-5{
+        
+        height: 62vh;
+        width: 45vw;
+
+    }
+    /*Mov.Artistico L móvel*/
+    #About_MovArtistico h4.card-title {
+        width: 100vw;
+        text-align: center;
+    }
+
+    /*Rodapé L móvel*/
+    footer .container-fluid .row .col-sm-12 {
+        text-align: center;
+    }
+
+    footer .container-fluid .row p.Agradecimentos {
+        margin: 0.2rem 0 0 0;
+        width: 85vw;
+        text-align: center;
+    }
+
+    footer .container-fluid .row .email,
+    footer .container-fluid .row .insta,
+    footer .container-fluid .row .whats {
+        margin: 0 1rem 1rem 0;
+    }
+}
+/*Móvel M*/
+@media (max-width:375px){
+
+}

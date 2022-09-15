@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeria Art Future</title>
+
+  <!--Fontes-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
+  <!--Css-->
+  <link rel="stylesheet" href="Galeria.css">
+
+  <!--Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+  <!-- Icons Font-Awesome -->
+  <script src="https://kit.fontawesome.com/1337a021ab.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <!--Scripts-->
+  <script src="Galeria.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container-fluid">
+      <img src="img/Logo_GaleriaArtFuture.png" alt="Galeria ArtFuture" id="logo">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse navbar-collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="Login" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="Login" href="#">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="Login" href="#">Pintura/Desenho</a>
+          </li>
+          <li class="nav-item">
+            <a class="Login" href="#">Movimentos artísticos</a>
+          </li>
+        </ul>
+        <span class="navbar-text">
+          <a href="Login/index.html" class="Login"> <i class="fa-solid fa-user">Login</i></a>
+        </span>
+      </div>
+    </div>
+  </nav>
+  <!--Conteudo-->
+  <div class="container-fluid Sliders">
+    <!--Título-->
+    <div class="row">
+      <h1 class=" titulo col-12"> Galeria ArtFuture</h1>
+    </div>
+    <!--Sliders-->
+    <div id="mainSlider" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="0" class="active botao-Carousel"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="1" aria-label="Slide 2"
+            class="botao-Carousel"></button>
+          <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="2" aria-label="Slide 3"
+            class="botao-Carousel"></button>
+        </div>
+        <div class="carousel-item active" data-bs-interval="0">
+          <div class="moldura-zero m-auto">
+            <img src="img/Quadro1.jpeg" class="d-block w-100 m-auto img-fluid" id="img1" alt="Quadro1">
+          </div>
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Nossos artistas tem traço autoral</h2>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="0">
+          <div class="moldura-um m-auto">
+            <img src="img/Quadro31.jpeg" class="d-block w-20 m-auto img-fluid" id="img2" alt="Tucano Correio">
+          </div>
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Sabem Trabalhar com a natureza</h2>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="0">
+          <div class="moldura-dois m-auto">
+            <img src="img/Pequeno_pontilhismo.jpeg" class="d-block w-20 m-auto img-fluid" id="img3"
+              alt="Pequeno Pontilhismo">
+          </div>
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Sem se desvencilhar dos clássicos</h2>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#mainSlider" data-bs-slide="prev">
+        <i class="fa-solid fa-circle-left botao"></i>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#mainSlider" data-bs-slide="next">
+        <i class="fa-solid fa-circle-right botao"></i>
+      </button>
+    </div>
+  </div>
+  <!--Pintura e Desenho-->
+  <div class="container Acervo">
+    <div class="row">
+      <h3 class="col-12 text-center titulo" id="Acervos"> Acervos</h2>
+
+        <p class="col-md-4 col-sm-12" id="text-Pintura">Pintura</p>
+        <a href="Login/index.html" class="col-md-2 col-sm-5"><img class="col-md-2  m-0 p-0" src="img/HT.png"
+            alt="Coração Tinta" id="Hearts-T"></a>
+        <a href="Login/index.html" class="col-md-2 col-sm-5 "><img class="col-md-2  m-0 p-0" src="img/HDI.jpeg"
+            alt="Coração Desenho" id="Hearts-D"></a>
+
+        <p class="col-md-2 col-sm-10 mt-auto p-2 text-Desenho">Desenho</p>
+    </div>
+  </div>
+  <!--Movimentos Artísticos-->
+  <div id="About_MovArtistico">
+    <div class="container">
+      <div class="row">
+        <h3 id="Acervos" class="col-12 titulo">Movimentos Artísticos</h3>
+        <div class="col-lg-3 col-sm-12 col-md-6">
+          <div class="">
+            <img src="img/Renascentismo.jpg" alt="Renascimento">
+          </div>
+          <div class="card-body col-sm-12 m-sm-auto">
+            <h4 class="card-title">Renascimento</h4>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-12 col-md-6">
+          <div class="">
+            <img src="img/Barroco.jpg" alt="Barroco">
+          </div>
+          <div class="card-body col-sm-12">
+            <h4 class="card-title ">Barroco</h4>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-12 col-md-6">
+          <div class="">
+            <img src="img/Rococo.jpeg" alt="Rococó">
+          </div>
+          <div class="card-body col-sm-12">
+            <h4 class="card-title ">Rococó</h4>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-12 col-md-6">
+          <div class="">
+            <img src="img/Romantismo.jpg" alt="Romantismo">
+          </div>
+          <div class="card-body col-sm-12">
+            <h4 class="card-title ">Romantismo</h4>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-12 col-md-6">
+          <div class="">
+            <img src="img/Impressionismo.jpeg" alt="Impressionismo">
+          </div>
+          <div class="card-body col-sm-12">
+            <h4 class="card-title ">Impressionismo</h4>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-12 col-md-6">
+          <div class="">
+            <img src="img/Expressionismo.jpeg" alt="Expressionismo">
+          </div>
+          <div class="card-body col-sm-12">
+            <h4 class="card-title ">Expressionismo</h4>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-12 col-md-6">
+          <div class="">
+            <img src="img/Cubismo.jpg" alt="Cubismo">
+          </div>
+          <div class="card-body col-sm-12 text-center">
+            <h4 class="card-title ">Cubismo</h4>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-12 col-md-6">
+          <div class="">
+            <img src="img/Pop_Art.jpeg" alt="Pop Art">
+          </div>
+          <div class="card-body col-sm-12 text-center">
+            <h4 class="card-title ">Pop Art</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Rodapé-->
+  <footer>
+    <h2 class="frase">"A Arte existe para que a verdade não nos destrua" Nietzsche, Friedriech</h2>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-2 col-12">
+          <p class="Agradecimentos">Desenvolvimento: <br> <span>Letícia Silva e Raphael G. </span> <br>
+            Agradecimento Especial <br> <span> Mário Você É Lindo </span></p>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <p class="titulo-fim "> Galeria ArtFuture </p>
+        </div>
+        <div class="col-md-4">
+          <i class="fa-regular fa-envelope email"></i>
+          <i class="fa-brands fa-instagram insta"></i>
+          <i class="fa-brands fa-whatsapp whats"></i>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
